@@ -17,7 +17,7 @@ import java.util.List;
 public class OnBoardingActivity extends AppCompatActivity {
     private ViewPagerAdapter viewPagerAdapter;
     private ViewPager viewPager;
-    
+
 
    WormDotsIndicator wormDotsIndicator;
 
@@ -42,10 +42,5 @@ public class OnBoardingActivity extends AppCompatActivity {
         viewPager.setAdapter(viewPagerAdapter);
         wormDotsIndicator.setViewPager(viewPager);
 
-//        ViewPagerOnPageListner();
     }
-
-//    private void ViewPagerOnPageListner() {
-//
-//    }
 }
