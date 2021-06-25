@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context=".OnBoardingActivity">
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        />
+
+    <com.tbuonomo.viewpagerdotsindicator.WormDotsIndicator
+        android:id="@+id/worm_dots_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:dotsColor="@color/black"
+        app:dotsStrokeColor="@color/white"
+        app:dotsCornerRadius="8dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="90dp"
+
+        app:dotsSize="10dp"
+        app:dotsSpacing="4dp"
+        app:dotsStrokeWidth="2dp"
+        />
+    <TextView
+        android:id="@+id/skip"
+        android:layout_width="111dp"
+        android:layout_height="28dp"
+        android:fontFamily="sans-serif-thin"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="77dp"
+        android:layout_marginLeft="30dp"
+        android:lineSpacingExtra="7sp"
+        android:text="Skip"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:translationY="-3.45sp"
+         />
+    <TextView
+        android:id="@+id/next"
+        android:layout_width="111dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="290dp"
+        android:fontFamily="sans-serif-thin"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="77dp"
+        android:gravity="right|top"
+        android:lineSpacingExtra="5sp"
+        android:text="Next"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:translationY="-2.28sp"
+         />
+
+</RelativeLayout>
